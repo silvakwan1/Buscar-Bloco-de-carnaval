@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+   
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+/* header aqui ta toda a parte superior da pagina */
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    height: 532px;
+    position: relative;
+    background-color:#F8F8FF;
+}
+
+.conteiner-header{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+}
+ /* parte escrita do header */
+.text{
+    align-self: center;
+    width: 647px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+
+.text h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+
+.text p{
+    color: red;
+    font-weight: 500;
+}
+ /* estilização dos pesquisa do header */
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid #EAEAEA;
+    background-color: #FFFFFF;
+}
+
+.pesquisa label img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 12px;
+    top: 0px;
+}
+
+input{
+    border-radius: 5px;
+    width: 348px;
+    height: 48px;
+}
+
+form div label{
+    position: relative;
+}
+
+.list label img{
+    width: 15px;
+    height: 21px;
+    position: absolute;
+    left: 12px;
+    top: 0px;
+}
+
+::placeholder{ 
+    padding: 16px 8px 16px 50px;
+}
+
+form button{
+    background-color: #6246EA;
+    padding: 12px 32px;
+    border-radius: 5px;
+}
+/* image do header estilizada */
+#g8{
+    width: 407px;
+    height: 345px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#ilustra-02{
+    width: 414px;
+    height: 330px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

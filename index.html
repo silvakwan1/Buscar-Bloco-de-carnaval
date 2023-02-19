@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carnaval</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assents/Vector.svg" type="image/x-icon">
+</head>
+<body>
+     <!-- box do header -->
+    <header class="hero">
+        <div class="conteiner-header">
+
+            <div class="text">
+
+                <p>find your block</p>
+
+                <h1>
+                    Encontre os <strong style="color:#6246EA;">melhores blocos</strong> de carnaval de 2023
+                </h1>
+            </div>
+           <!--  search -->
+            <form action="#" class="search" >
+                <div class="pesquisa"> 
+                    <label for="search"><img src="./assents/search.svg" id="imagem1"> </label>
+                    <input type="search" name="pesquisa" placeholder="Pesquise por nome" id="search">
+                </div>
+                
+                <div class="list">
+                    <label for="list"><img src="./assents/Vector.svg" id="imagem2"></label>
+                    <input list="city" id="list" placeholder="Selecione uma cidade">
+                    <datalist id="city">
+                        <option value="São Paulo SP"></option>
+                        <option value="Rio de Janeiro RJ"></option>
+                        <option value="Salvador BA"></option>
+                        <option value="Brasilia DF"></option>
+                        <option value="Belo Horizonte MG"></option>
+                    </datalist>
+                </div>
+        
+                <button type="submit" value="submit">Buscar agora</button>
+            
+            </form>
+        </div>
+        <!-- icons do header -->
+        <img id="g8" src="./assents/g8.png">
+
+        <img id="ilustra-02" src="./assents/ilustra-02.png" >
+
+    </header>
+    <script src="./script.js"></script>
+</body>
+</html>
