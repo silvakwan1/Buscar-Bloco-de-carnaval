@@ -21,18 +21,20 @@ header{
 
 .conteiner-header{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     gap: 40px;
-    margin: auto;
 }
  /* parte escrita do header */
 .text{
     align-self: center;
     width: 647px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     gap: 18px;
 }
 
@@ -49,9 +51,10 @@ header{
  /* estilização dos pesquisa do header */
 .search{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-    padding: 40px;
+    padding: 40px 40px 40px 40px;
     border-radius: 10px;
     border: 2px solid #EAEAEA;
     background-color: #FFFFFF;
@@ -98,13 +101,13 @@ form button{
     height: 345px;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -90px;
 }
 
 #ilustra-02{
     width: 414px;
     height: 330px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -10px;
+    right: -10px;
 }
